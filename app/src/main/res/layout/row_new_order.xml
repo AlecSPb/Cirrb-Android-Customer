@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_white_bg"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="7dp">
+
+    <RelativeLayout
+        android:id="@+id/rootViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/restaurent_imv"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/tv_rstrnt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/restaurent_imv"
+            android:text="@string/txt_restrnt_name"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_rstrnt_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_rstrnt_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/restaurent_imv"
+            android:text="@string/txt_restrnt_add"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/tv_rstrnt_distanceLBL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_rstrnt_add"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/restaurent_imv"
+            android:text="@string/txt_restrnt_dis_lbl"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/tv_rstrnt_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_rstrnt_add"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv_rstrnt_distanceLBL"
+            android:text="10"
+            android:textColor="@color/colorBlack" />
+    </RelativeLayout>
+</RelativeLayout>

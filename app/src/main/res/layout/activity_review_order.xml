@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_review"
+        layout="@layout/toolbar_review" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_review"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cnfrm_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/txt_cnfrm_order_msg" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recOrderReview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layRecDetails"
+            android:layout_below="@+id/cnfrm_msg"/>
+
+        <RelativeLayout
+            android:id="@+id/layRecDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true">
+
+            <EditText
+                android:id="@+id/edt_coupon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_two"
+                android:hint="@string/txt_coupon"
+                android:padding="8dp"
+                android:textSize="16sp"/>
+
+            <RelativeLayout
+                android:id="@+id/layoutOrderReciept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@+id/edt_coupon">
+
+                <TextView
+                    android:id="@+id/txtSubOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/txtSetSubOrder"
+                    android:text="@string/txt_total_order"/>
+
+                <TextView
+                    android:id="@+id/txtSetSubOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/txtDeliveryCharges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@+id/txtSubOrder"
+                    android:layout_toLeftOf="@+id/txtSetSubOrder"
+                    android:text="@string/txt_delvry_chrges"/>
+
+                <TextView
+                    android:id="@+id/txtSetDeliveryCharges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@+id/txtSubOrder"/>
+
+
+                <TextView
+                    android:id="@+id/txtGrandTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@+id/txtDeliveryCharges"
+                    android:layout_toLeftOf="@+id/txtSetSubOrder"
+                    android:text="@string/txt_grand_total"/>
+
+                <TextView
+                    android:id="@+id/txtSetGrandTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@+id/txtDeliveryCharges"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_confrm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:layout_below="@+id/layoutOrderReciept"
+                android:text="@string/txt_confirm"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

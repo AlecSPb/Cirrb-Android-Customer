@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    <RelativeLayout
+        android:id="@+id/layOrderLst"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/rounded_white_bg">
+
+        <TextView
+            android:id="@+id/txtCurrentOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CURRENT_ORDER"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorButton"/>
+
+        <TextView
+            android:id="@+id/txtOrderCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/5"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorButton"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewOrderLst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_below="@+id/txtCurrentOrder"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_new_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:text="@string/txt_new_order"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/layOrderLst"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp" />
+        </RelativeLayout>
+</RelativeLayout>

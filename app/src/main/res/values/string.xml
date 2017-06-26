@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cirrb</string>
+    <string name="Email_Username">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="cnfrmPassword">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgotpass">Forgot your password ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="forgot_text">Type in Your Mail Address to retrieve your account password</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="txt_set_pass">An email with reset code was sent to your inbox.Please provide the reswt code to be able to reset your password </string>
+    <string name="reset_code">Reset Code</string>
+    <string name="new_pass">New Password</string>
+
+    <string name="txt_entr_username">Please enter email</string>
+    <string name="txt_enter_valid_email">Email address is not valid</string>
+    <string name="txt_entr_password">Please enter your password </string>
+    <string name="txt_confirm_pass">Password does not match</string>
+    <string name="txt_register_success">Successfully Registered</string>
+    <string name="txt_Exception_Message">Internet Problem Occurs, Try again some time</string>
+
+    <string name="txt_nav_home">Home</string>
+    <string name="txt_nav_order">Order History</string>
+    <string name="txt_nav_profile">Profile</string>
+    <string name="txt_nav_logout">Logout</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="txt_order">Accept Order</string>
+    <string name="txtinhand">IN HAND </string>
+    <string name="txtlimit">LIMIT </string>
+    <string name="txttotlaordr">Total Order </string>
+    <string name="txtlstrcvd">Last Received</string>
+    <string name="txtProfile">Profile</string>
+    <string name="txthintPhnNo">Phone Number</string>
+    <string name="save">Save</string>
+
+    <string name="txt_new_order">New Order</string>
+    <string name="txt_restrnt_name">Radission Hotel</string>
+    <string name="txt_restrnt_add">Ring Road Indore</string>
+    <string name="txt_restrnt_dis_lbl">Distance :</string>
+
+    <string name="txt_menu_food_name_lbl">Price: SR</string>
+    <string name="txt_cnfrm_order_msg">Once order is confirmed we will dispatch your order to closest driver</string>
+    <string name="txt_coupon">Have pramotion code or coupon ?</string>
+    <string name="txt_total_order">Order Total</string>
+    <string name="txt_delvry_chrges">Delivery Chrages</string>
+    <string name="txt_grand_total">Grand total</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_order_complete">Order Complete</string>
+    <string name="txt_order_complete_msg">We have received your order.Cirrb is locating the closest driver to deliver your order </string>
+    <string name="txt_track_order">Track my order</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_confirm_dailog">Are you sure to confirm your order</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+
+    <string name="txt_logout_msg">Are you sure you want to logout?</string>
+    <string name="txt_total">Total</string>
+    <string name="txt_restaurent">Restaurent</string>
+    <string name="txt_menu">Menu</string>
+
+    <string name="txt_email_empty">Enter your email</string>
+    <string name="txt_code_empty">Enter your code</string>
+    <string name="txt_code_wrong">Enter correct code</string>
+
+
+    <string name="select_menu_item">Please select atleast one menu item.</string>
+    <string name="CURRENT_ORDER">CURRENT ORDERS</string>
+    <string name="Cancel_Order">Cancel Order</string>
+    <string name="Order_Status">Order Status</string>
+
+
+</resources>

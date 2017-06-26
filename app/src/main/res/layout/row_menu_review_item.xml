@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/rounded_white_bg">
+
+    <TextView
+        android:id="@+id/txtMenuTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="right"
+        android:layout_weight="0.6"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/txtMenuQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/txtMenuPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_weight="0.8"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"/>
+
+</LinearLayout>

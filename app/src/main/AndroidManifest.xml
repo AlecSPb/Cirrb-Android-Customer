@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cirrb.com.cirrab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_small"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.Status.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.Status.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:theme="@style/AppTheme.Status.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SetForgotActivity"
+            android:theme="@style/AppTheme.Status.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+
+        <activity
+            android:name=".OrderRestaurentActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+        <activity
+            android:name=".ReviewActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+        <activity
+            android:name=".OrderCompleteActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+        <activity
+            android:name=".MenuItemActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAVrdMfFvzeTf_Ukgnh_et9OsW-o3zT0qo" />
+
+    </application>
+
+
+</manifest>

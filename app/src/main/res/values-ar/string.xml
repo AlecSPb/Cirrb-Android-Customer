@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cirrb</string>
+    <string name="Email_Username">عنوان البريد الإلكتروني</string>
+    <string name="Password">كلمه السر</string>
+    <string name="cnfrmPassword">تأكيد كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">تسجيل</string>
+    <string name="forgotpass">نسيت رقمك السري ؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="forgot_text">اكتب عنوان بريدك لاسترداد كلمة مرور حسابك</string>
+    <string name="reset_pass">إعادة تعيين كلمة المرور</string>
+    <string name="txt_set_pass">تم إرسال رسالة بريد إلكتروني تحتوي على رمز إعادة تعيين إلى البريد الوارد. يرجى تقديم رمز ريسوت حتى تتمكن من إعادة تعيين كلمة المرور </string>
+    <string name="reset_code">إعادة تعيين الرمز</string>
+    <string name="new_pass">كلمة السر الجديدة</string>
+
+
+    <string name="txt_entr_username">الرجاء إدخال البريد الإلكتروني</string>
+    <string name="txt_enter_valid_email">عنوان البريد الإلكتروني غير صالح</string>
+    <string name="txt_entr_password">من فضلك أدخل رقمك السري </string>
+    <string name="txt_confirm_pass">كلمة السر غير متطابقة </string>
+    <string name="txt_register_success">سجلت بنجاح</string>
+    <string name="txt_Exception_Message">تحدث مشكلة إنترنت، حاول مرة أخرى بعض الوقت</string>
+
+    <string name="txt_nav_home">الصفحة الرئيسية</string>
+    <string name="txt_nav_order">تاريخ الطلب</string>
+    <string name="txt_nav_profile">الملف الشخصي</string>
+    <string name="txt_nav_logout">الخروج</string>
+
+    <string name="drawer_open">فتح</string>
+    <string name="drawer_close">قريب</string>
+    <string name="txt_order">قبول النظام</string>
+    <string name="txtinhand">فى اليد </string>
+    <string name="txtlimit">LIMIT </string>
+    <string name="txttotlaordr">من أجل الكاملة </string>
+    <string name="txtlstrcvd">آخر استلام</string>
+    <string name="txtProfile">الملف الشخصي</string>
+    <string name="txthintPhnNo">رقم الهاتف</string>
+    <string name="save">حفظ</string>
+
+    <string name="txt_new_order">أمر جديد</string>
+    <string name="txt_restrnt_name">Radission Hotel</string>
+    <string name="txt_restrnt_add">Ring Road Indore</string>
+    <string name="txt_restrnt_dis_lbl">مسافه: بعد</string>
+
+    <string name="txt_menu_food_name_lbl">السعر : SR</string>
+    <string name="txt_cnfrm_order_msg">بمجرد تأكيد النظام سوف نقوم بإرسال طلبك إلى أقرب سائق</string>
+    <string name="txt_coupon">هل لديك براموتيون رمز أو قسيمة؟</string>
+    <string name="txt_total_order">الطلب الكلي</string>
+    <string name="txt_delvry_chrges">رسوم التوصيل</string>
+    <string name="txt_grand_total">المبلغ الإجمالي</string>
+    <string name="txt_confirm">تؤكد</string>
+    <string name="txt_order_complete">الطلب جاهز</string>
+    <string name="txt_order_complete_msg">لقد تلقينا طلبك. سيرب هو تحديد أقرب سائق لتقديم طلبك</string>
+    <string name="txt_track_order">تابع طلبي</string>
+    <string name="txt_continue">استمر</string>
+    <string name="txt_confirm_dailog">هل أنت متأكد من تأكيد طلبك</string>
+    <string name="txt_yes">نعم فعلا</string>
+    <string name="txt_no">لا</string>
+
+    <string name="txt_logout_msg">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="txt_total">مجموع</string>
+    <string name="txt_restaurent">مطعم</string>
+    <string name="txt_menu">قائمة طعام</string>
+
+    <string name="txt_email_empty">أدخل بريدك الإلكتروني</string>
+    <string name="txt_code_empty">ادخل رمزك</string>
+    <string name="txt_code_wrong">أدخل الرمز الصحيح</string>
+
+    <string name="select_menu_item">Please select atleast one menu item.</string>
+
+</resources>

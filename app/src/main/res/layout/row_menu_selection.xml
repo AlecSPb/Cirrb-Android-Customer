@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="7dp">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="150px">
+    <RelativeLayout
+        android:id="@+id/layDetailsMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical"
+        android:layout_toLeftOf="@+id/layoutIncrementDec"
+        android:background="@drawable/rounded_white_bg">
+
+        <ImageView
+            android:id="@+id/food_imv"
+            android:layout_width="86dp"
+            android:layout_height="66dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/tv_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/food_imv"
+            android:padding="5dp"
+            android:text="Rice"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_food_proceLBL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_food_name"
+            android:layout_toRightOf="@+id/food_imv"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/txt_menu_food_name_lbl"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_food_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_food_name"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/tv_food_proceLBL"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="20"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutIncrementDec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/foodPlus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="+"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/colorBlue"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/foodCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textColor="@color/colorBlack"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/foodMinus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="-"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/colorBlue"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
